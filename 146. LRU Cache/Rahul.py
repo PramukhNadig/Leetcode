@@ -5,9 +5,6 @@ class Node:
         self.prev = prev
         self.next = next
         
-    def __str__(self):
-        return f'({self.key}: {self.value})'
-
 class LRUCache:
     def __init__(self, capacity: int):
         self.cap = capacity
